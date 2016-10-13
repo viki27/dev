@@ -1,0 +1,66 @@
+.wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+.popup {
+	width: 512px;
+	height: 400px;
+	background: #FFFFFF;
+	border: 5px solid #000;
+	position: relative;
+}
+
+.centervertical {
+    display: table; 
+    width: 100%;
+    margin: auto;
+}
+
+.centerverticalchild {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.divtable {
+    display: table;
+    margin: auto;
+}
+
+.bigblock {
+    height: 200px;
+    width:25%;
+    display:inline-block;
+}
+
+.yellow {
+    background-color:yellow;
+}
+
+.bordr {
+    border:3px solid red;
+}
+
+.divrowtext {
+    display: table-row;
+    text-align: center;
+}
+
+.divtextcenter {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.size {
+	height: 512px;
+	width: 100%;
+}
+
+.closed {
+    float: right;
+    border-radius: 100%;
+}

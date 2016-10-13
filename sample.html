@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" href="#" type="text/css">
+	    <script src="#" type="text/javascript"></script>
+	
+	
+		<script type="text/javascript">
+function sleep() {
+    setTimeout("countdown()", 5000);
+}
+var ss = 6;
+function countdown() {
+ss = ss-1;
+if (ss<0) {
+window.location="http://www.google.com/";
+}
+else {
+document.getElementById("countdown").innerHTML=ss;
+window.setTimeout("countdown()", 1000);
+}
+}
+</script>
+</head>
+<body onload="sleep()">Your transaction was successful.
+
+<div id="div1"><p><em>You will be redirected to the homepage in <span id="countdown">5</span> second(s).</em></p></div>
+		</div>
+	</body>
+</html>	

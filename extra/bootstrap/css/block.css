@@ -1,0 +1,120 @@
+.block {
+  
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+  
+}
+
+
+.bigblock {
+  
+    height: 200px;
+    width: 25%;
+    display:inline-block;
+    
+}
+
+.floating-left {
+    
+    float: left;
+    text-align: center;
+    
+}
+
+.floating-right {
+    
+    float: right;
+    text-align: center;
+    
+}
+
+.verticalCenter {
+
+}
+
+.red {
+    background-color:red;
+}
+.blue {
+    background-color:blue;
+}
+
+.green {
+    background-color:green;
+}
+
+.yellow {
+    background-color:yellow;
+}
+
+.orange {
+    background-color:orange;
+}
+
+
+
+.clear {
+    clear: both;;
+}	
+
+.container {
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+    text-align:center;
+}
+
+.textCenter{
+    text-align: center;
+  }
+
+.buttonbg {
+  padding: 5px;
+    border : 1px solid black;
+    background: orange;
+}
+.lastblock {
+    
+    height: 200px;
+    width: 25%;
+    display:inline-block;
+    
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+
+
+.cen{
+  	max-width:300px;
+  	margin:0 auto;
+      
+    
+}
+.float {
+	
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 10px ;
+
+    border: 3px solid #000000;
+
+}
+.bottom{
+	
+  	clear: both;
+  	margin-bottom: 0px;
+
+}
+
+
+
+
